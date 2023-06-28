@@ -1,5 +1,5 @@
-h3,
-h1 {
+h1,
+h3 {
   text-align: center;
   color: purple;
   font-style: italic;
@@ -15,4 +15,32 @@ h1 {
   margin-right: auto;
   padding-left: 16px;
   margin-bottom: 10px;
+}
+.round-all {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.round-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.round-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.button {
+  display: inline-flex;
+  height: 35px;
+  width: 140px;
+  border: 2px solid #bfc0c0;
+  margin: 20px 20px 20px 20px;
+  color: #bfc0c0;
+  text-transform: uppercase;
+
+  font-size: 0.8em;
+
+  align-items: center;
+  justify-content: center;
 }

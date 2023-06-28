@@ -5,34 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <h1>My Portfolio</h1>
-    <p style="text-align: center">
-      <a href="index.html" style="margin-right: 5px"> Home </a> |
-      <a href="Experience.html" style="margin-right: 5px"> Experience </a> |
-      <a style="margin-right: 5px" href="contact.html"> Contact Me </a>
-    </p>
-    <img
-      src="images/353874083_118737814562096_1582534543641159951_n.jpg"
-      height="200px"
-      width="300px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-
-    <h3>Ratchapon Prangthong</h3>
-    <p style="text-align: center">My name is Pete.Hi! Nice to meet you</p>
-
-    <h3>Skills</h3>
-    <div class="skill-container">
-      <h3 class="skill-header">Programming</h3>
-      <p>I can code C and C++</p>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <div class="button">
+        <a href="index.html"> Home </a>
+      </div>
+      <div class="button">
+        <a href="Experience101.html"> Experience </a>
+      </div>
+      <div class="button">
+        <a href="gallery.html"> Gallery </a>
+      </div>
+      <div class="button">
+        <a href="contact.html"> Contact Me </a>
+      </div>
+    </div>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="images/353874083_118737814562096_1582534543641159951_n.jpg"
+          height="200"
+          width="200"
+          style="object-fit: cover"
+          class="rounded-circle"
+        />
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="display-6 mb-3">Ratchapon Prangthong</div>
+        <hr class="my-1" />
+        <div class="text-muted">
+          Hi!,My name is Pete.I am study Faculty of Computer Engineering in
+          Chiangmai University.Nice to meet you!
+        </div>
+      </div>
     </div>
 
-    <div class="skill-container">
-      <h3 class="skill-header">Sport</h3>
-      <p>I can play table tennis.</p>
+    <p class="text-center fs-3">Skills</p>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm round-all">
+        <div class="round-left">
+          <img
+            src="images/704318ee9be94acabf28919a734951b8-scaled.jpg"
+            width="260px"
+            height="150px"
+            style="object-fit: cover"
+            class="round-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-muted"> I have experience coding C and C++</span>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm round-all">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Hobby</p>
+          <span class="text-muted">
+            I can play guitar and I like to play Dota 2 and Csgo
+          </span>
+        </div>
+        <div style="margin-left: auto">
+          <img
+            src="images/csgo-dota-2-sportstiger-1-1669811139518.jpg"
+            width="260px"
+            height="150px"
+            style="object-fit: cover"
+            class="round-right d-none d-sm-block"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
